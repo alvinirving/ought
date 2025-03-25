@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InputBase Renders Correctly 1`] = `
+<DocumentFragment>
+  <form
+    action="#"
+  >
+    <div
+      class="MuiInputBase-root MuiInputBase-colorPrimary css-1le28he-MuiInputBase-root"
+    >
+      <input
+        class="MuiInputBase-input css-yz9k0d-MuiInputBase-input"
+        name="test"
+        type="text"
+        value="Input"
+      />
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`InputBase Renders Correctly disabled 1`] = `
+<DocumentFragment>
+  <form
+    action="#"
+  >
+    <div
+      class="MuiInputBase-root MuiInputBase-colorPrimary css-1le28he-MuiInputBase-root"
+    >
+      <input
+        class="MuiInputBase-input css-yz9k0d-MuiInputBase-input"
+        data-testid="input"
+        name="test"
+        type="text"
+        value="a"
+      />
+    </div>
+  </form>
+</DocumentFragment>
+`;

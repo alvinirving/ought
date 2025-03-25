@@ -1,0 +1,43 @@
+{
+  "name": "formik-mui-x-date-pickers",
+  "type": "module",
+  "main": "./dist/main.js",
+  "version": "2.0.0-alpha.0",
+  "license": "MIT",
+  "typings": "dist/main.d.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@mui/material": ">5.6.0",
+    "@mui/x-date-pickers": ">=7.0.0",
+    "formik": ">=2.2.9",
+    "react": ">=17.0.2",
+    "tiny-warning": ">=1.0.3"
+  },
+  "keywords": [
+    "react",
+    "formik",
+    "material-ui",
+    "mui",
+    "mui-x",
+    "form",
+    "pickers"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackworx/formik-mui"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "typecheck": "tsc",
+    "build": "tsc && vite build",
+    "test": "TZ=UTC vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "gitHead": "014c524940fd5c07f1492dab6147d2e7261229e7"
+}

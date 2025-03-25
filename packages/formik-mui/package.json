@@ -1,0 +1,41 @@
+{
+  "name": "formik-mui",
+  "type": "module",
+  "main": "./dist/main.js",
+  "version": "5.0.0-alpha.1",
+  "license": "MIT",
+  "typings": "dist/main.d.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@mui/material": ">5.6.0",
+    "formik": ">=2.2.9",
+    "react": ">=17.0.2",
+    "tiny-warning": ">=1.0.3"
+  },
+  "keywords": [
+    "react",
+    "formik",
+    "material-ui",
+    "mui",
+    "form"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackworx/formik-mui"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "typecheck": "tsc",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "test:updateSnapshot": "jest --updateSnapshot",
+    "prepublishOnly": "npm run build"
+  },
+  "gitHead": "014c524940fd5c07f1492dab6147d2e7261229e7"
+}

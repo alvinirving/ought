@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <form
+    action="#"
+    data-testid="form"
+  >
+    <div
+      class="MuiToggleButtonGroup-root css-bghv3y-MuiToggleButtonGroup-root"
+      name="toggle"
+      role="group"
+    />
+    <button
+      data-testid="submit"
+    >
+      submit
+    </button>
+  </form>
+</DocumentFragment>
+`;
